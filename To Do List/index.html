@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Todo List</title>
+</head>
+<body>
+    <div class="main">
+        <h1 style="text-align: center;">Todo App</h1>
+        <div class="add-todos">
+            <input type="text" placeholder="Enter your task...">
+            <textarea name="description" id="description" cols="30" rows="10" placeholder="Give a small description about your task..."></textarea>
+            <button type="button" id="task-btn">Add Task</button>
+        </div>
+        <h2 style="text-align: center; margin-left: -38rem;">Your To Do List</h2>
+        <div class="list-items">
+            <ul>
+                <li>Eat - <span class="desc">Eat brekfast at 8 AM</span><button type="button" class="delete">Delete</button></li>   
+                <li>Sleep - <span class="desc">Go to sleep at 10 PM</span><button type="button" class="delete">Delete</button></li>
+                <li>Code - <span class="desc">Start coding at 7 PM</span><button type="button" class="delete">Delete</button></li>
+                
+            </ul>
+        </div>
+    </div>
+    <script src="app.js"></script>
+</body>
+</html>
